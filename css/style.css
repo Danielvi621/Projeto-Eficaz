@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+
+}	
+.center{
+	max-width: 1100px;
+	margin:0 auto;
+	padding:0 2% ;
+	display: flex;
+	flex-wrap: wrap;
+	position: sticky;
+	top: 1%;
+}
+
+header{
+	background-color: rgba(225, 225, 225, 0);
+	padding:6px 0 ;
+	/*border-bottom: 2px solid rgb(0, 0, 0);*/
+	
+
+
+
+}
+
+.logo{
+	color: #F21D21;
+
+
+}
+
+.logo h2{
+	font-weight: normal;
+	font-size: 35px;
+
+}
+.logo h2:hover{
+	color: #000000;
+	/*transition: 1s;*/
+
+}
+
+.menu{
+	width: 90%;
+	padding: 6px;
+	text-align: right;
+}
+
+.menu a{
+	color: #124265;
+	font-size: 16px;
+	text-decoration: none;
+	/*transition: 0,4s;*/
+	margin-right: 23px;
+
+
+}
+
+.menu a:hover{
+	color: #F21D21;
+
+}
+.menu .btn-menu{
+	background-color: #F21D21;
+	display: inline-block;
+	padding: 8px 18px;
+	color: white;
+	border-radius: 8px;
+}
+.menu .btn-menu:hover{
+	background-color: #16507b;
+	color: white;
+
+}
+/* SECTION MAIN */
+
+section.main {
+	background-color: rgba(225, 225, 225, 0.1);
+	padding:55px 0 ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+.main_cta{
+	width: 100%;
+	margin: 60px 0;
+	text-align: center;
+
+}
+
+.main_cta h2{
+	color: #16507b;
+	font-size: 40px;
+}
+
+.main_cta p{
+	color: dimgray;
+	font-size: 19px;
+	margin: 10px 0;
+
+}
+
+.main_cta button{
+	background-color: #F21D21;
+	display: inline-block;
+	padding: 8px 16px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+	cursor: pointer;
+}
+
+.diferenciais{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.diferencial-single{
+	background-color: white;
+	width: 21%;
+	margin: 2%;
+	padding: 50px 20px;
+	border-radius: 10px;
+	
+
+}
+
+.diferencial-single i{
+	color: #124265;
+	font-size: 20px;
+}
+
+.diferencial-single h2{
+	color: #124265;
+	margin: 10px 0;
+	font-size: 17px;
+
+}
+
+.diferencial-single p{
+	color: gray;
+	font-size: 14px;
+	line-height: 30px;
+
+}
+
+section.sobre{
+	padding: 80px;
+
+}
+.chamado-sobre{
+	text-align:center;
+}
+.chamado-sobre h2 {
+	color: #124265;
+}
+
+.chamado-sobre p{
+	font-size:  14px;
+	color: gray;
+	margin: 30px;
+	
+}
+
+.conteudo-sobre{
+	text-align: center;
+	flex-wrap: nowrap;
+	
+}
+
+@media screen and (max-width: 768px){
+	.diferencial-single{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+.roda-pe {
+	background:#F21D21;
+	padding: 30px 80px;
+	width: 100%;
+		
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 15px;
+}
+
+.logo-2 a{
+	color:white;
+	font-size: 35px;
+	display:flex;
+	transition:all 0.5s ease-in-out ;
+}
+
+.footer-link a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	display: flex;
+	margin-top: 12px;
+	transition:all 0.2s ease-in-out ;
+
+}
+
+.footer-adress{
+	color:white;
+	margin: 6px 0;
+	font-size: 15px;
+	font-weight:300;
+}
